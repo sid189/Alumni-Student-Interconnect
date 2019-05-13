@@ -1,0 +1,29 @@
+table {
+	position: absolute;
+	top : 45%;
+	
+}
+
+th {
+	background-color: #8B4513;
+	font-size: 22px;
+	color: #ffffff;
+}
+
+td {
+	background-color:#eeeeee;
+	font-size: 18px;
+	color: #0000ff;
+}
+
+td:hover {
+	background-color: #CD853F;	
+}
+
+tr {
+	text-align: center;
+}
+
+caption {
+	font-size: 22px;
+}

@@ -1,0 +1,335 @@
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr" >
+		<head>
+		  <base href="http://www.alumnee.in/alumneedemo/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="" />
+  <meta name="rights" content="" />
+  <meta name="language" content="en-GB" />
+  <meta name="generator" content="Alumnee" />
+  <title>Alumnee - Login</title>
+  <link href="/alumneedemo/templates/alumni/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/alumneedemo/plugins/system/modalizer/modals/colorbox/style1/colorbox.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.alumnee.in/alumneedemo/modules/mod_maximenu_CK/themes/default/css/moo_maximenuH_CK.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.alumnee.in/alumneedemo/modules/mod_maximenu_CK/themes/default/css/maximenuH_CK.php?monid=maximenuCK" type="text/css" />
+  <style type="text/css">
+span.tooltips-link { border-bottom: 1px dashed #CCCCCC; }
+div.tooltips-tip, div.tooltips-tip.tool-tip, div.tooltips-tip-tip { z-index: 200 }
+div.tooltips-tip div.tip, div.tooltips-tip-tip > div { background-color: #F6F6FF; border-color: #CCCCCC; border-width: 2px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; max-width: 400px; }
+#cboxLoadedContent{background-color:#fff;}
+  </style>
+  <script src="/alumneedemo/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/alumneedemo/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/alumneedemo/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/alumneedemo/media/system/js/validate.js" type="text/javascript"></script>
+  <script src="/alumneedemo/plugins/system/modalizer/modals/jquery.min.js" type="text/javascript"></script>
+  <script src="/alumneedemo/plugins/system/modalizer/modals/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
+  <script src="http://www.alumnee.in/alumneedemo/modules/mod_maximenu_CK/assets/moo_maximenu_CK.js" type="text/javascript"></script>
+  <script src="http://www.alumnee.in/alumneedemo/modules/mod_maximenu_CK/assets/fancymenu_CK.js" type="text/javascript"></script>
+  <script src="http://www.alumnee.in/alumneedemo/modules/mod_maximenu_CK/themes/default/js/maximenu_addon_CK.js" type="text/javascript"></script>
+  <script type="text/javascript">
+function keepAlive() {	var myAjax = new Request({method: "get", url: "index.php"}).send();} window.addEvent("domready", function(){ keepAlive.periodical(3600000); });
+		window.addEvent('domready', function() {
+			$$('.hasTip').each(function(el) {
+				var title = el.get('title');
+				if (title) {
+					var parts = title.split('::', 2);
+					el.store('tip:title', parts[0]);
+					el.store('tip:text', parts[1]);
+				}
+			});
+			var JTooltips = new Tips($$('.hasTip'), { maxTitleChars: 50, fixed: false});
+		});
+		window.addEvent('domready', function() {
+			$$('.tooltips-link').each(function(el) {
+				var title = el.get('title');
+				if (title) {
+					var parts = title.split('::', 2);
+					el.store('tip:title', parts[0]);
+					el.store('tip:text', parts[1]);
+				}
+			});
+			var JTooltips = new Tips($$('.tooltips-link'), { maxTitleChars: 50, showDelay: 100, hideDelay: 100, className: 'tooltips-tip', fixed: false});
+		});
+		window.addEvent('domready', function() {
+			$$('.tooltips-link-img').each(function(el) {
+				var title = el.get('title');
+				if (title) {
+					var parts = title.split('::', 2);
+					el.store('tip:title', parts[0]);
+					el.store('tip:text', parts[1]);
+				}
+			});
+			var JTooltips = new Tips($$('.tooltips-link-img'), { maxTitleChars: 50, showDelay: 100, hideDelay: 100, className: 'tooltips-img tooltips-tip', fixed: false, onShow: function(tip){ tip.setStyle('display','block');tip.getElement('div.tip').setStyle('max-width',tip.getElement('img').getStyle('width')); }});
+		});
+			$j(document).ready(function(){
+				$j('a.modalizer_link,a.modal,a.modalizer').colorbox({width:'60%',height:'80%',iframe:true});
+				$j('a.modalizer_link_image').colorbox({});
+				$j('a.modalizer_link_external').colorbox({width:'60%',height:'80%',iframe:true});
+			});
+		
+window.addEvent('domready', function() {new DropdownMaxiMenu(document.getElement('div#maximenuCK'),{mooTransition : 'Quad',mooEase : 'easeOut',useOpacity : '0',dureeOut : 500,menuID : 'maximenuCK',testoverflow : '1',orientation : '0',style : 'moomenu',mooDuree : 500});});
+window.addEvent('domready', function() {new SlideList(document.getElement('div#maximenuCK ul'),{fancyTransition : 'Quad',fancyEase : 'easeOut',fancyDuree : 500});});
+  </script>
+  <script type='text/javascript'>
+/*<![CDATA[*/
+	var jax_live_site = 'http://www.alumnee.in/alumneedemo/index.php';
+	var jax_site_type = '1.6';
+	var jax_token_var = '697af1ad81d16e42d5364cb0a41becc3';
+/*]]>*/
+</script><script type="text/javascript" src="http://www.alumnee.in/alumneedemo/plugins/system/azrul.system/pc_includes/ajax_1.3.js"></script>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<title>Alumni</title>
+					
+														<link rel="stylesheet" href="/alumneedemo/templates/alumni/css/style.css" type="text/css" />
+						<link rel="stylesheet" href="/alumneedemo/templates/alumni/css/general.css" type="text/css" />
+
+
+	<!--[if lte IE 6]>
+		<link href="/alumneedemo/templates/alumni/css/ieonly.css" rel="stylesheet" type="text/css" />
+
+					<style type="text/css">
+				#line{ width:98%; }
+				.logoheader{ height:200px; }
+				#header ul.menu{ display:block !important; width:98.2%; }
+			</style>
+			<![endif]-->
+	<!--[if IE 7]>
+		<link href="/alumneedemo/templates/alumni/css/ie7only.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+		
+		
+
+	
+	<body>
+
+		<div id="wrapper">
+		<!--  Headerstart-->
+		  <div id="header">
+			<div class="header-right">
+			 	<form action="/alumneedemo/index.php" method="post" id="login-form" >
+				<div class="bg-login">
+			<b>Member Login:</b>
+			<input id="modlgn-email" type="text" id="textfield" name="email"  size="18" />
+			<input id="modlgn-passwd" type="password" id="textfield2" name="password"  size="18"  />
+
+						<input type="submit" name="Submit" id="button"  value="Go" />
+			<input type="hidden" name="option" value="com_users" />
+			<input type="hidden" name="task" value="user.login" />
+			<input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD0xMDI=" />
+			<input type="hidden" name="697af1ad81d16e42d5364cb0a41becc3" value="1" />		</div>
+		<div class="forgot">
+			<img src="/alumneedemo/images/icon-forgot.png" alt=""  align="absbottom" /> 
+			<a href="/alumneedemo/index.php/component/users/?view=reset">Forgot Password</a> 
+					</div>
+			</form>
+
+				</div>
+			 
+			<div class="logo"><a href="/alumneedemo/index.php"><img src="logo.png" vspace="6" /></a></div>
+		  </div>
+		  <!--  HeaderEnd-->
+		  
+		  <!-- MenuStart -->
+		  <div class="tnb"><span>&nbsp;</span>
+			<label>&nbsp;</label>
+			<!--<a href="javascript:;"><img src="/alumneedemo/images/but-register.png" width="131" height="25" alt=""  class="but-register"/></a>-->
+						<!-- debut maximenu_CK, par cedric keiflin sur http://www.joomlack.fr -->
+        <div class="maximenuCKH" id="maximenuCK">
+        <div class="maxiRoundedleft"></div>
+        <div class="maxiRoundedcenter">
+            <ul class="menu maximenuCK">
+        <li class="maximenuCK first item324 current active level0" style="z-index : 12000;"><a class="maximenuCK " href="http://www.alumnee.in/alumneedemo/" title=""><span class="titreCK">Login</span></a></li>            </ul>
+        </div>
+        <div class="maxiRoundedright"></div>
+        <div style="clear:both;"></div>
+    </div>
+    <div style="clear:both;"></div>
+    <!-- fin maximenuCK -->
+
+		  </div>
+		  <!--MenuEnd-->
+		  
+
+		  <div class="container">
+					<div class="mid1">
+					
+									
+					
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+													
+					
+				
+
+			   
+
+<script type="text/javascript" src="http://www.alumnee.in/alumneedemo/media/system/js/jquery-1.4.2.min.js"></script>
+<script language="javascript">
+	$(document).ready(function(){
+		var myEmail = '';
+		$("#jform_email1").val('');
+
+		$("#jform_email1").blur(function(){
+			myEmail = $(this).val();
+			$("#jform_username").val(myEmail);
+		});
+
+		$("#jform_degree").change(function(){
+			//var selectedIndex = $(this + ":selected");
+			//var selectedIndexId = selectedIndex.attr('id');
+			var selectedIndexId = document.getElementById($(this).attr('id')).selectedIndex;
+			if (selectedIndexId == ""){
+				$("#stream_wrap").html('<select id="stream" name="stream" class="select required"><option name="" value="">Select Below</option></select>');
+				return;
+			}else{
+				$("#stream_wrap").html('<img src="http://www.alumnee.in/alumneedemo/components/com_community/assets/wait.gif" alt="wait" style="margin:10px 0;" />');
+			}
+
+			$.ajax({
+				type: "POST",
+				url: "index.php?option=com_users&view=stream",
+				data: "selectedDegree="+selectedIndexId,
+				success: function(streams){
+					$("#stream_wrap").html(streams);
+				}
+			});
+		});
+	});
+
+</script>
+
+
+<div class="registration">
+<div class="home-col" align="center"><h1 class="txt-black">Alumnee helps bridge the gap between <br />
+	  the Students, the Alumni and the Institute</h1> 
+	<br />
+<div align="center">
+  <img src="/alumneedemo/images/connectivity.jpg" /></div></div>
+<div class="home-login">
+
+	<form id="member-registration" action="/alumneedemo/index.php/component/users/?task=registration.register" method="post" class="form-validate">
+							<h1>
+								Member Registration -
+			</h1>
+				
+		<table width="" cellpadding="5" cellspacing="0">
+			<tr>
+				<td></td>
+				<td align="right">* Required field</td>
+			</tr>
+												<tr>
+						<td align="right">
+							<label id="jform_name-lbl" for="jform_name" class=" required">Name:<span class="star">&#160;*</span></label>													</td>
+						<td>
+							<input type="text" name="jform[name]" id="jform_name" value="" class="required" size="30"/>							<label></label>
+						</td>
+					</tr>
+																<tr>
+						<td align="right">
+							<label id="jform_email1-lbl" for="jform_email1" class=" required">Email (Username):<span class="star">&#160;*</span></label>													</td>
+						<td>
+							<input type="text" name="jform[email1]" class="validate-email required" id="jform_email1" value="" size="30"/>							<label></label>
+						</td>
+					</tr>
+																<tr>
+						<td align="right">
+							<label id="jform_alternate_email-lbl" for="jform_alternate_email" class="">Alternate Email :</label>													</td>
+						<td>
+							<input type="text" name="jform[alternate_email]" class="validate-email" id="jform_alternate_email" value="" size="30"/>							<label></label>
+						</td>
+					</tr>
+																<tr>
+						<td align="right">
+							<label id="jform_password1-lbl" for="jform_password1" class=" required">Password:<span class="star">&#160;*</span></label>													</td>
+						<td>
+							<input type="password" name="jform[password1]" id="jform_password1" value="" autocomplete="off" class="validate-password required" size="30"/>							<label></label>
+						</td>
+					</tr>
+																<tr>
+						<td align="right">
+							<label id="jform_password2-lbl" for="jform_password2" class=" required">Confirm Password:<span class="star">&#160;*</span></label>													</td>
+						<td>
+							<input type="password" name="jform[password2]" id="jform_password2" value="" autocomplete="off" class="validate-password required" size="30"/>							<label></label>
+						</td>
+					</tr>
+																<input type="hidden" name="jform[username]" id="jform_username" value="" class="validate-username" />										<tr>
+			  <td align="right"><label title="" class="hasTip required" for="jform_degree" id="jform_degree-lbl">Degree:<span class="star">&nbsp;*</span></label></td>
+				<td>
+					<select id="jform_degree" name="degree" class="required">
+						<option value="" id="">Select Below</option>
+						<option value="BE" id="1">BE</option><option value="BCA" id="2">BCA</option><option value="BBA" id="3">BBA</option><option value="MCA" id="4">MCA</option><option value="MBA" id="5">MBA</option>					</select>
+				</td>
+			</tr>
+			<tr>
+			  <td align="right"><label title="" class="hasTip required" for="jform_stream" id="jform_stream-lbl">Stream:<span class="star">&nbsp;*</span></label></td>
+				<td>
+					<div id="stream_wrap">
+						<select id="jform_stream" name="stream" class="required">
+							<option value="">Select Below</option>
+						</select>
+					</div>
+				</td>
+			</tr>
+			<tr>
+			  <td align="right"><label title="" class="hasTip required" for="jform_passyear" id="jform_passyear-lbl">Year of Passing:<span class="star">&nbsp;*</span></label></td>
+				<td>
+					<select id="jform_passyear" name="passyear" class="required">
+						<option value="">Select Below</option>
+						<option value="2001">2001</option><option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option><option value="2005">2005</option><option value="2006">2006</option><option value="2007">2007</option><option value="2008">2008</option><option value="2009">2009</option><option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option><option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option>					</select>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="submit" class="validate" value="Register" />
+				
+					<!--&nbsp;<input type="submit" class="validate" value="Cancel" />-->
+					<input type="hidden" name="option" value="com_users" />
+					<input type="hidden" name="task" value="registration.register" />
+					<input type="hidden" name="697af1ad81d16e42d5364cb0a41becc3" value="1" />				</td>
+			</tr>
+	  </table>
+		</form>
+</div>
+</div>
+
+			   
+			</div>
+			
+		  </div>
+		</div>
+		<div class="clear"></div>
+
+		<!-- FooterStart -->
+		<div class="bg-footer">
+		  <div id="footer">
+		  <a href="http://www.serosoft.in/" target="_blank" ><img src="/alumneedemo/templates/alumni/images/alumnee_logo.png"  vspace="0" align="right" /></a>
+			<a href="/alumneedemo/index.php/2011-07-30-08-23-42" >Privacy Policy</a> | Copyright  2016. Alumnee.  All Rights Reserved.<br />
+			
+		</div>
+
+				
+		
+		
+		
+
+	
+	<!-- FooterEnd -->
+	</body>
+	</html>
+

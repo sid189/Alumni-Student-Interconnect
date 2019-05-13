@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Alumni Student Interconnect</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="about.css">
+		<link rel="stylesheet" type="text/css" href="daily_ui_day1_sign_in/css/animate.css">
+		<link rel="stylesheet" type="text/css" href="daily_ui_day1_sign_in/css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	</head>
+	<body>
+		<header class="container">
+			<div class="row">
+				 <ul>
+				 	<li><img src="logo.png"></li>
+				 	<li><p style="font-size:27px" style="float:center">Alumni Students Interconnect, MITCOE</p></li>
+				 	<li style="float: right"><a href="main.html" class="button button1">Sign Up</li></a>
+				 	<li style="float: right"><a href="index.html" class="button button1">Log In</li></a>
+				 </ul> 
+			</div>
+			<div class="row">
+				 <ul>
+				 	<li style="float:center"><a href="main.html" class="button button2">Home</a></li>
+					<li style="float:center"><a href="#students" class="button button2">Students</a></li>
+					<li style="float:center"><a href="#" class="button button2">Alumni</a></li>
+					<li style="float:center"><a href="#" class="button button2">About</a></li>
+					<li style="float:center"><a href="#" class="button button2">Archives</a></li>
+				</ul> 
+			</div>
+		</header>
+		
+		<section class="jumbotron">
+			<h1>About Alumni Student Interconnect</h1>
+			<h3 style="text-align:center" >The Alumni Student Interconnect, MIT College Of Engineering, is created to brigde the gap between the students and the Alumni of MITCOE. Here, inspiring others begins with being inspired yourself. Connecting Students with Alumni to inginte opportunities to strengthen our bruin bond is our aim.</h3>  
+		
+		
+		</section>
+		<footer class="container">
+			<p>Copyright 2016</p>
+			
+			
+		</footer>
+	</body>
+	<script>
+	$(document).ready(function () {
+    	$('#logo').addClass('animated fadeInDown');
+    	$("input:text:visible:first").focus();
+	});
+	$('#username').focus(function() {
+		$('label[for="username"]').addClass('selected');
+	});
+	$('#username').blur(function() {
+		$('label[for="username"]').removeClass('selected');
+	});
+	$('#password').focus(function() {
+		$('label[for="password"]').addClass('selected');
+	});
+	$('#password').blur(function() {
+		$('label[for="password"]').removeClass('selected');
+	});
+</script>
+</html>										

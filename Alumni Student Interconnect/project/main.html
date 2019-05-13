@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Alumni Student Interconnect</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="about.css">
+		<link rel="stylesheet" type="text/css" href="daily_ui_day1_sign_in/css/animate.css">
+		<link rel="stylesheet" type="text/css" href="daily_ui_day1_sign_in/css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	</head>
+	<body>
+		<header class="container">
+			<div class="row">
+				 <ul>
+				 	<li><div class="logo"><a href="main.html"><img src="logo.png"></a></div></li>
+				 	<li><p style="font-size:27px" style="float:center">Alumni Students Interconnect, MITCOE</p></li>
+				 	<li style="float: right"><div class="dropdown">
+					<button onclick="myFunction()" class="button dropbtn">SignUp</button>
+					<div id="myDropdown" class="dropdown-content">
+						<a href="studentspre.html">Student SignUp</a>
+						<a href="alumnipre.html">Alumni SignUp</a>
+					</div>
+				
+			</div>
+
+			<script>
+			/* When the user clicks on the button,
+			toggle between hiding and showing the dropdown content */
+			function myFunction() {
+				document.getElementById("myDropdown").classList.toggle("show");
+			}
+			// Close the dropdown if the user clicks outside of it
+			window.onclick = function(event) {
+         		if (!event.target.matches('.dropbtn')) {
+          		var dropdowns = document.getElementsByClassName("dropdown-content");
+			var i;
+			for (i = 0; i < dropdowns.length; i++) {
+			var openDropdown = dropdowns[i];
+			if (openDropdown.classList.contains('show')) {
+			openDropdown.classList.remove('show');
+			}
+			}
+			}
+			</script>
+			</li>
+		 </ul> 
+		</div>
+			<div class="row">
+				 <ul>
+				 	<li style="float:center"><a href="main.html" class="button">Home</a></li>
+					<li class="dropdown" style="float:center"><a href="studentspre.html" class="button dropbtn">Students</a>
+					<div class="dropdown-content">
+      							<a href="poststudent.php">Computer</a>
+      							<a href="entc.html">ENTC</a>
+      							<a href="mech.html">Mechanical</a>
+							<a href="it.html">IT</a>
+							<a href="civil.html">Civil</a>
+							<a href="fe.html">FE</a>
+    						</div>
+    					</li>	
+					<li style="float:center"><a href="alumnipre.html" class="button">Alumni</a></li>
+					<li style="float:center"><a href="project.php" class="button">Projects</a></li>
+					<li class="dropdown" style="float:center"><a href="guidance.php" class="button dropbtn">Guidance</a>
+						<div class="dropdown-content">
+      							<a href="education.html">Education</a>				
+      							<a href="career.html">Career</a>
+    						</div>
+					</li>
+					<li style="float:center"><a href="contact.html" class="button">Contact Us</a></li>
+
+				</ul> 
+			</div>
+		</header>
+			<table class="transbox">
+				<caption><b>Recent News</b></caption>
+				<tr colspan="2">
+				<td><b><marquee direction="up" scrollamount="1">Tesla'16 Infinism graces MITCOE</b></td>
+				</tr>
+				<tr colspan="2">
+					<td><b><marquee direction="up" scrollamount="1">TEDxMITP returns with an Eye for Ideas</b></td>
+				</tr>
+				<tr colspan="2">
+					<td><b><marquee direction="up" scrollamount="1">IBM conducts a Hackathon in MIT</b></td>
+				</tr>
+				<tr colspan="2">
+					<td><b><marquee direction="up" scrollamount="1">Toppers of MITCOE felicitated</b></td>
+				</tr>
+				<tr colspan="2">
+					<td><b><marquee direction="up" scrollamount="1">NBA committee visits MITCOE campus</b></td>
+				</tr>
+				<tr colspan="2">
+					<td><b><marquee direction="up" scrollamount="1">BE students display their projects in the Project expo</b></td></marquee>
+				</tr>
+			</table>
+			<div class="calender">
+					<div class="month">
+					  <ul>
+					    <li class="prev">❮</li>
+					    <li class="next">❯</li>
+					    <li style="text-align:center">
+					     October<br>
+					      <span style="font-size:18px">2016</span>
+					    </li>
+					  </ul>
+					</div>
+
+					<ul class="weekdays">
+					  <li>Mo</li>
+					  <li>Tu</li>
+					  <li>We</li>
+					  <li>Th</li>
+					  <li>Fr</li>
+					  <li>Sa</li>
+					  <li>Su</li>
+					</ul>
+
+					<ul class="days">
+					  <li>1</li>
+					  <li>2</li>
+					  <li>3</li>
+					  <li>4</li>
+					  <li>5</li>
+					  <li>6</li>
+					  <li>7</li>
+					  <li>8</li>
+					  <li>9</li>
+					  <li><span class="active">10</span></li>
+					  <li>11</li>
+					  <li>12</li>
+					  <li>13</li>
+					  <li>14</li>
+					  <li>15</li>
+					  <li>16</li>
+					  <li>17</li>
+					  <li>18</li>
+					  <li>19</li>
+					  <li>20</li>
+					  <li>21</li>
+					  <li>22</li>
+					  <li>23</li>
+					  <li>24</li>
+					  <li>25</li>
+					  <li>26</li>
+					  <li>27</li>
+					  <li>28</li>
+					  <li>29</li>
+					  <li>30</li>
+					  <li>31</li>
+					</ul>
+				</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<h1 style="color: #8B4513; text-align:center">About Alumni Student Interconnect</h1>
+				<h3 style="text-align:center; color: #D2691E; position: absolute; left:25%; right: 25%" >The Alumni Student Interconnect, MIT College Of Engineering, helps institutes strategically build and manage their alumni network, by facilitating engagement, community-building, networking, communications and giving back. With alumnee, your Alumni data can be centralized and combined with a host of exciting front-end member modules and time-saving, back-end administration tools. 
+
+So stop wasting resources on piecemeal and uncoordinated efforts, and start creating value for your alumni community and your institute TODAY!
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<u><a href="index.php" style="color: #D2691E">Already a Member ?? Login now ...!</a></u>
+				</h3>
+				<br>
+				<br>
+				<br>
+				
+			
+	</body>
+	<script>
+	$(document).ready(function () {
+    	$('#logo').addClass('animated fadeInDown');
+    	$("input:text:visible:first").focus();
+	});
+	$('#username').focus(function() {
+		$('label[for="username"]').addClass('selected');
+	});
+	$('#username').blur(function() {
+		$('label[for="username"]').removeClass('selected');
+	});
+	$('#password').focus(function() {
+		$('label[for="password"]').addClass('selected');
+	});
+	$('#password').blur(function() {
+		$('label[for="password"]').removeClass('selected');
+	});
+</script>
+</html>										
